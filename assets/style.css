@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #EEEEEE;
+}
+
+header {
+    margin-top: 60px;
+}
+
+header img{
+    display: flex;
+    margin-inline: auto;
+}
+
+header p{
+    margin-inline: auto;
+    margin-top:15px ;
+    font-size: 18px;
+    max-width: 660px ;
+    height: 52px;
+}
+
+main {
+    background: url("./img/backround.png") no-repeat left top;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 67px;
+}
+
+.main-left {
+    height: 203px;
+    width: 567px;
+    margin-top: 163px;
+    margin-left: 204px;
+}
+
+.main-left h2{
+    color: #888888;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-left h1{
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.main-left p{
+    font-size: 18px;
+}
+
+.main-right {
+    margin-right: 134px;
+}
+
+.text-food {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 57px;
+}
+
+.caulikids {
+    border-radius: 10px;
+    width: 670px;
+    height: 584px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-caulikids{
+    background-color: white;
+    width: 670px;
+    height: 204px;
+}
+
+.text-caulikids {
+    width: 610px;
+    height: 124px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+
+.text-caulikids h2{
+    font-size: 14px;
+    color: #888888;
+
+}
+
+.text-caulikids h1{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+
+}
+
+.text-caulikids p{
+    font-family: 16px;
+}
