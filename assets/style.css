@@ -11,6 +11,11 @@ body {
     background-color: #EEEEEE;
 }
 
+.container {
+    max-width: 1920px;
+    margin: 0px auto;
+}
+
 header {
     margin-top: 60px;
 }
@@ -62,6 +67,14 @@ main {
     margin-right: 134px;
 }
 
+
+/* FOOD */
+
+.food {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
 .text-food {
     text-align: center;
     font-family: "Playfair Display", serif;
@@ -70,6 +83,8 @@ main {
     margin-top: 57px;
 }
 
+
+
 .caulikids {
     border-radius: 10px;
     width: 670px;
@@ -77,9 +92,11 @@ main {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    margin-top: 35px;
+    margin-left: 515px;
 }
 
-.content-caulikids{
+.content-caulikids {
     background-color: white;
     width: 670px;
     height: 204px;
@@ -91,7 +108,6 @@ main {
     text-align: center;
     padding-top: 30px;
     padding-left: 30px;
-    padding-right: 30px;
     padding-bottom: 50px;
 }
 
@@ -110,4 +126,264 @@ main {
 
 .text-caulikids p{
     font-family: 16px;
+}
+
+
+.two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.amayu {
+    border-radius: 10px;
+    width: 670px;
+    height: 584px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.content-amayu {
+    background-color: white;
+    width: 670px;
+    height: 204px;
+}
+
+.text-amayu {
+    width: 610px;
+    height: 124px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+
+.text-amayu h2{
+    font-size: 14px;
+    color: #888888;
+}
+
+.text-amayu h1{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+}
+
+.text-amayu p{
+    font-family: 16px;
+}
+
+.organick {
+    /* margin-left: 30px; */
+}
+
+
+
+
+.third {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.Weirdos {
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.mezcla {
+    border-radius: 10px;
+    width: 670px;
+    height: 610px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-mezcla {
+    background-color: white;
+    width: 670px;
+    height: 227px;
+}
+
+.text-mezcla {
+    width: 610px;
+    height: 124px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+
+.text-mezcla h2{
+    font-size: 14px;
+    color: #888888;
+}
+
+.text-mezcla h1{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+}
+
+.text-mezcla p{
+    font-family: 16px;
+}
+
+
+.Toum {
+    border-radius: 10px;
+    width: 670px;
+    height: 584px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.content-Toum {
+    background-color: white;
+    width: 670px;
+    height: 228px;
+}
+
+.text-Toum {
+    width: 610px;
+    height: 124px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+
+.text-Toum h2{
+    font-size: 14px;
+    color: #888888;
+
+}
+
+.text-Toum h1{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+
+}
+
+.text-Toum p{
+    margin-top: 10px;
+    font-family: 16px;
+}
+
+
+
+.fourth {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.Good {
+    border-radius: 10px;
+    width: 670px;
+    height: 584px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.content-Good {
+    background-color: white;
+    width: 670px;
+    height: 204px;
+}
+
+.text-Good {
+    width: 610px;
+    height: 124px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+
+.text-Good h2{
+    font-size: 14px;
+    color: #888888;
+}
+
+.text-Good h1{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+}
+
+.text-Good p{
+    font-family: 16px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.five {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.red {
+    border-radius: 10px;
+    width: 670px;
+    height: 608px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.content-red {
+    background-color: white;
+    width: 670px;
+    height: 228px;
+}
+
+.text-red {
+    width: 610px;
+    height: 147px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+
+.text-red h2{
+    font-size: 14px;
+    color: #888888;
+}
+
+.text-red h1{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+}
+
+.text-red p{
+    text-align: center;
+    font-family: 16px;
+    margin-top: 10px;
+}
+
+.natasha {
+    margin-left: 30px;
 }
